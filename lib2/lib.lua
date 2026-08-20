@@ -788,15 +788,15 @@ local Library do
 	end
 
 	Library.Holder = Instances:Create("ScreenGui", {
-		Parent = gethui(),
-		Name = "\0",
+		Parent = CoreGui,
+		Name = "MelekHub",
 		ZIndexBehavior = Enum.ZIndexBehavior.Global,
 		DisplayOrder = 2,
 		ResetOnSpawn = false
 	})
 
 	Library.UnusedHolder = Instances:Create("ScreenGui", {
-		Parent = gethui(),
+		Parent = CoreGui,
 		Name = "\0",
 		ZIndexBehavior = Enum.ZIndexBehavior.Global,
 		Enabled = false,
